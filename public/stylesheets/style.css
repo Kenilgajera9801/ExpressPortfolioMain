@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap');
+* {
+    overflow-x: hidden;
+}
+
+img.dev-image {
+    width: 68%;
+}
+
+h2.heading {
+    font-size: 5rem;
+}
+
+.my-text {
+    padding: 59px;
+    color: #fff;
+    background-color: #3E3145;
+}
+
+h2.heading>span {
+    font-size: 3rem;
+    color: #61EC46;
+    font-family: 'Fira Code', monospace;
+}
+
+.action-btn {
+    font-size: 1.3em;
+}
+
+.bg-dark {
+    background-color: rgb(173, 62, 81) !important;
+}
+
+.title-style {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #3E3145;
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+.title-style span {
+    display: block;
+    font-size: 0.5em;
+    line-height: 1.3;
+}
+
+.title-style em {
+    font-style: normal;
+    font-weight: 600;
+}
+
+.my-heading .title-style {
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+
+.my-heading .title-style:before {
+    width: 28px;
+    height: 5px;
+    display: block;
+    content: "";
+    position: absolute;
+    bottom: 3px;
+    left: 50%;
+    margin-left: -14px;
+    background-color: rgb(173, 62, 81) !important;
+}
+
+.my-heading .title-style:after {
+    width: 100px;
+    height: 1px;
+    display: block;
+    content: "";
+    position: relative;
+    margin-top: 25px;
+    left: 50%;
+    margin-left: -50px;
+    background-color: rgb(173, 62, 81) !important;
+}
+
+i.fa {
+    color: #fff;
+    font-size: 29px;
+    margin-right: 10px;
+}
+
+.contact-form {
+    margin: auto;
+    width: 60%;
+    border: 1px solid #ddd;
+    padding: 23px;
+    border-radius: 5px;
+}
+
+.h5,
+h5 {
+    font-size: 20px;
+    overflow: hidden;
+}
+
+.skill {
+    padding: 18px 0px;
+}
+
+img.skill-image {
+    width: 82%;
+    margin: auto;
+    margin: 37px 0px 0px 83px;
+}
+
+.r-heading {
+    font-family: "Raleway", sans-serif;
+}
+
+.subtitle {
+    color: rgb(173, 62, 81) !important;
+    font-weight: 600;
+}
+
+.light-text {
+    color: rgb(99, 99, 99);
+}
+
+ul.work-list {
+    line-height: 3em;
+    list-style: circle;
+}
+
+.card-title {
+    overflow-y: hidden;
+}
+
+.card {
+    height: 350px;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    border: 0px;
+    border-radius: 8px;
+}
+
+.card-img-overlay {
+    padding: 5.25rem 1.25rem;
+    text-align: center;
+    color: #fff;
+}
+
+.card-btn {
+    color: #000 !important;
+    background-color: #fff;
+    border: 0px;
+}
